@@ -40,7 +40,6 @@ int main() {
     root->right->right->left = new Node(3);
     root->right->right->right = new Node(6);
     root->right->right->left->right = new Node(4);
-al
     levelOrder(root);
     
     return 0;
